@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/update_act"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/idedited"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_margin="20dp"
+            android:ems="10"
+            android:hint="ID"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/posteupdate"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_margin="20dp"
+            android:ems="10"
+            android:hint="POSTE"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/despupdate"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:ems="10"
+            android:hint="DESCRIPTION"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/editbtn"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_margin="20dp"
+            android:text="update offre" />
+    </LinearLayout>
+</LinearLayout>
